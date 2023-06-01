@@ -1,5 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+ 
+ .input-boxes {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 190px;
+  
+} 
+
+.img {
+  background-image: url("./images/tech.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+p {
+  margin-top: 100px;
+  color: rgb(16, 29, 1);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+  color: rgba(35, 2, 14, 0.986);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.child1 {
+
+  color: rgb(164, 14, 184);
+  font-family: 'Roboto', sans-serif;
+}
+.child2 {
+  color: darkmagenta;
+  font-family: 'Roboto', sans-serif;
+}
+.inp {
+  background-color: black;
+  color: goldenrod;
+  padding: 2px;
+}
+
+.inp1 {
+  background-color: black;
+  color: goldenrod;
+  padding: 2px;
 }
